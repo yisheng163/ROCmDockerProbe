@@ -1,0 +1,47 @@
+系统平台: Linux-6.8.0-79-generic-x86_64-with-glibc2.35
+操作系统: Linux
+操作系统版本: #79-Ubuntu SMP PREEMPT_DYNAMIC Tue Aug 12 14:42:46 UTC 2025
+主机名: u-4069-590864a3
+内核版本: 6.8.0-79-generic
+发行版: Ubuntu 22.04.5 LTS
+发行版版本: 22.04
+CPU型号: x86_64
+CPU核心数: 物理核心: 64, 逻辑核心: 128
+CPU频率: 2933.3 MHz (最大: 0.0 MHz)
+CPU使用率: 0.2%
+CPU架构: x86_64
+CPU总数: 32-63,96-127
+CPU详细型号: AMD EPYC 9334 32-Core Processor
+总内存: 503.56 GB
+可用内存: 480.95 GB
+已用内存: 22.62 GB
+内存使用率: 4.5%
+交换分区: 总计: 0.00 GB, 已用: 0.00 GB
+AMD GPU信息: +------------------------------------------------------------------------------+
+| AMD-SMI 26.2.2+e1a6bc5663    amdgpu version: 6.16.13  ROCm version: 7.2.1    |
+| VBIOS version: 00162356                                                      |
+| Platform: Linux Baremetal                                                    |
+|-------------------------------------+----------------------------------------|
+| BDF                        GPU-Name | Mem-Uti   Temp   UEC       Power-Usage |
+| GPU  HIP-ID  OAM-ID  Partition-Mode | GFX-Uti    Fan               Mem-Usage |
+|=====================================+========================================|
+| 0000:03:00.0                 0x744b | 0 %      33 °C   0            10/241 W |
+|   0       0     N/A             N/A | 0 %     20.0 %             26/49136 MB |
++-------------------------------------+----------------------------------------+
++------------------------------------------------------------------------------+
+| Processes:                
+NVIDIA GPU信息: nvidia-smi未找到或执行失败: [Errno 2] No such file or directory: 'nvidia-smi'
+PyTorch GPU: 可用, 设备数: 1
+GPU 0: 
+ROCm GPU详情: Name:                    AMD EPYC 9334 32-Core Processor
+Marketing Name:          AMD EPYC 9334 32-Core Processor
+Vendor Name:             CPU
+Python版本: 3.10.12
+Python路径: /opt/venv/bin/python
+Python架构: 64bit
+vllm版本: 0.16.1.dev0+g89a77b108.d20260318.rocm721
+sglang版本: 未安装
+torch版本: 2.9.1+gitff65f5b
+transformers版本: 未安装
+gradio版本: 6.20.0
+psutil版本: 7.1.0
